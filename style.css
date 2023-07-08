@@ -1,0 +1,310 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(241, 241, 241);
+}
+
+header{
+  height: 500px;
+  background-color: rgb(68, 68, 226);
+}
+
+nav{
+  float: right;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+
+.nav-item{
+  color: white;
+  margin-right: 30px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.nav-item-active{
+  color: rgb(53, 56, 252);
+  margin-right: 30px;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.logo{
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.header-text{
+  float: left;
+  color: white;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.header-text h2{
+  font-size: 30px;
+  word-spacing: 8px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.header-text p{
+    font-size: 20px;
+}
+
+.header-image{
+float: right;
+margin-top: 30px;
+}
+
+.companies{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.company-items{
+  text-decoration: none;
+  color: black;
+  margin-left:60px;
+  font-family: gilroy;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.api-heading{
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.cards{
+  margin-left: 90px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.card{
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  height: 230px;
+  margin-right: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px rgb(211, 210, 210);
+}
+
+.card-active{
+  width: 20%;
+  height: 230px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 5px 10px 20px rgb(211, 210, 210);
+
+}
+
+.card-logo{
+  margin-top: 10px;
+}
+
+.card-head-active{
+  margin-top: 10px;
+}
+
+.card-head{
+  margin-top: 10px;
+}
+
+.card-body{
+  margin-top: 10px;
+}
+
+
+.blog-heading{
+  margin-left: 90px;
+  margin-top: 70px;
+}
+
+.blog-cards{
+  margin-left: 90px;
+  margin-top: 40px;
+  display: flex;
+  gap: 100px;
+}
+
+.blog-card{
+  display: flex;
+  height: 287px;
+  
+}
+
+.blog-content{
+  background-color: white;
+  box-shadow: 5px 10px 20px rgb(211, 210, 210);
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 40px;
+  border-radius: 0 5% 5% 0% ;
+}
+
+.blog-content h6{
+  color: blue;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.blog-content h3{
+  font-size: 23px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.blog-content p{
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.faq-section{
+  display: flex;
+  margin-top: 80px;
+  padding-left: 60px;
+  gap: 130px;
+  background-color: rgb(208, 246, 255);
+  width: 100%;
+  height: 54%;
+}
+
+.faq-content{
+  margin-top: 30px;
+}
+
+.faq-content h2{
+    font-weight: 900;
+    font-family: gilroy;
+    font-size: 35px;
+}
+
+.h41{
+   margin-top: 20px;
+   font-weight: 100;
+}
+
+.h42{
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.btn1{
+  margin-top: 20px;
+  padding: 8px;
+  background-color: rgb(68, 68, 226);
+  color: white;
+  border: none;
+  border-radius: 4px;
+
+}
+
+.download-section{
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  height: 34%;
+}
+
+.download-content{
+   float: left;
+   margin-top: 80px;
+   margin-left: 60px;
+}
+
+span{
+  font-weight: 300;
+}
+
+form input{
+    position: absolute;
+     border-radius: 25px;
+     background-color: rgb(231, 231, 231);
+     width: 35%;
+     height: 22px;
+     right: 70px;
+     top: 80px;
+     padding: 8px;
+     border: none;
+     /* z-index: 1; */
+     
+}
+
+form button{
+  position: absolute;
+  border-radius: 25px; 
+  right: 72px;
+  top: 82px;
+  padding: 7px;
+  width: 10%;
+  border: none;
+  background-color: rgb(68, 68, 226);
+  color: white;
+  font-weight: 500;
+}
+
+.footer-section{
+  background-color: rgb(68, 68, 226);
+  height: 200px;
+}
+
+.footer-left{
+  float: left;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.list{
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.list .list-items{
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-right: 10px;
+  border-right: 2px solid rgb(255, 255, 255);
+  color: white;
+  font-weight: 500;
+
+}
+
+.footer-right{
+  float: right;
+  margin-right: 60px;
+  margin-top: 40px;
+}
+
+.logos-list{
+  display: flex;
+  list-style-type: none;
+  margin-top: 20px; 
+}
+
+.list-items{
+  margin-right: 15px;
+  color: white;
+}
+
+.footer-logos{
+  margin-right: 10px;
+}
